@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#left {
+    width: 40vw;
+    background-color: grey;
+}
+
+#right {
+    width: 60vw;
+}
+
+#right-top {
+    height: 50vh;
+    background-color: aqua;
+}
+
+#right-bottom {
+    height: 50vh;
+    background-color: blueviolet;
+}
+
