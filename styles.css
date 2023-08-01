@@ -14,12 +14,46 @@
 }
 
 #right-top {
-    height: 50vh;
+    height: 40vh;
     background-color: aqua;
 }
 
-#right-bottom {
-    height: 50vh;
+#right-middle {
+    height: 30vh;
     background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
 }
 
+#right-bottom {
+    height: 30vh;
+    background-color: yellowgreen;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    size: 100;
+}
+
+/* preuzeto iz lekcije o stilovima formi - testirati */
+/* button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
