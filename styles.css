@@ -8,27 +8,41 @@
 #left {
     width: 40vw;
     background-color: grey;
+    background-image: url("https://images.unsplash.com/photo-1581110881163-f207f3d40ec6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80");
+    background-size: cover;
+    height: 100vh;
+    flex: auto;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
 }
 
 #right {
     width: 60vw;
+    height: 100vh;
+    flex: auto;
 }
 
 #right-top {
     height: 40vh;
-    background-color: aqua;
+    background-color: #36454F;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 17vw;
 }
 
 #right-middle {
     height: 30vh;
-    background-color: blueviolet;
+    background-color:#928E85;
     display: flex;
     flex-direction: column;
 }
 
 #right-bottom {
     height: 30vh;
-    background-color: yellowgreen;
+    background-color: #708090; 
 }
 
 .column {
@@ -49,23 +63,28 @@ input {
 #main_form {
     display: flex;
     gap: 5em;
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 #form_heading {
-    padding-left: 2rem;
+    padding-left: 3rem;
     margin-left: 0;
 }
 
+h2 {
+    padding-left: 3rem;
+}
+
 /* preuzeto iz lekcije o stilovima formi - testirati */
-/* button,
+button,
 input,
 select,
 textarea {
   font-family: inherit;
   font-size: 100%;
+  border-radius: 5px;
 }
-
+/* 
 input,
 textarea,
 select,
@@ -75,3 +94,33 @@ button {
   margin: 0;
   box-sizing: border-box;
 } */
+
+#submit_button {
+    padding: 10px;
+    font-weight: bold;
+    background-color: crimson;
+    color: white;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+#login {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.logo_holder {
+    position: absolute;
+    top: 17vh;
+    background-color: black;
+    opacity: 0.6;
+    width: 40vw;
+    height: auto;
+    box-sizing: border-box;
+    /* margin: 0 auto; */
+}
+
+.logo_holder > img {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
