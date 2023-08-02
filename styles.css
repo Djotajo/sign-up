@@ -31,18 +31,22 @@
     flex-direction: column;
     justify-content: flex-end;
     padding-right: 17vw;
+    color: #C9BAB0;
 }
 
 #right-middle {
+    position: relative;
     height: 30vh;
     background-color:#928E85;
     display: flex;
     flex-direction: column;
+    color: #21201e;
 }
 
 #right-bottom {
     height: 30vh;
     background-color: #708090; 
+    color: #21201e;
 }
 
 .column {
@@ -123,4 +127,20 @@ button {
 .logo_holder > img {
     padding-left: 1vw;
     padding-right: 1vw;
+}
+
+.outer {
+    display: flex;
+    gap: 5rem;
+}
+
+#match {
+    color: red;
+}
+
+#requiredfields {
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    font-size: 15px;
 }
