@@ -144,3 +144,20 @@ button {
     left: 1px;
     font-size: 15px;
 }
+
+#left p {
+    color: #ffffff88;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+    margin-bottom: 1vh;
+}
+
+#left p a {
+    color: #ffffff88;
+    text-decoration: none;
+}
